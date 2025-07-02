@@ -1,6 +1,6 @@
 package RealworldBackendCangjieCjoy
 
 main(): Int64 {
-    println("hello world")
-    return 0
+    let joy = Joy.default()
+    
 }

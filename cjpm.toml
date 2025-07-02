@@ -1,6 +1,6 @@
 [package]
   cjc-version = "1.0.0"
-  name = "RealworldBackendCangjieCjoy"
+  name = "realworld_backend_cangjie_cjoy"
   description = "nothing here"
   version = "1.0.0"
   target-dir = ""
@@ -12,3 +12,4 @@
   package-configuration = {}
 
 [dependencies]
+  cjoy = { git = "https://gitcode.com/Cangjie-SIG/cjoy.git", branch = "main" }
