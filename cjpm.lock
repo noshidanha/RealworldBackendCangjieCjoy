@@ -1,0 +1,4 @@
+version = 0
+
+[requires]
+  cjoy = {git = "https://gitcode.com/Cangjie-SIG/cjoy.git", commitId = "e9ff0fb863ff9d8a4ededbab2ce9bd5752fadc9c", branch = "main"}

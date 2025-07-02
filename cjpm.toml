@@ -6,10 +6,31 @@
   target-dir = ""
   src-dir = ""
   output-type = "executable"
-  compile-option = ""
+  compile-option = "-lcrypt32"
   override-compile-option = ""
   link-option = ""
-  package-configuration = {}
+  [package.package-configuration."cjoy.examples.chuncked"]
+    output-type = "static"
+  [package.package-configuration."cjoy.examples.fileserver"]
+    output-type = "static"
+  [package.package-configuration."cjoy.examples.macros"]
+    output-type = "static"
+  [package.package-configuration."cjoy.examples.mcpclient"]
+    output-type = "static"
+  [package.package-configuration."cjoy.examples.mcpserver"]
+    output-type = "static"
+  [package.package-configuration."cjoy.examples.multipart"]
+    output-type = "static"
+  [package.package-configuration."cjoy.examples.rest"]
+    output-type = "static"
+  [package.package-configuration."cjoy.examples.simple"]
+    output-type = "static"
+  [package.package-configuration."cjoy.examples.sse"]
+    output-type = "static"
+  [package.package-configuration."cjoy.examples.tls"]
+    output-type = "static"
+  [package.package-configuration."cjoy.examples.websocket"]
+    output-type = "static"
 
 [dependencies]
   cjoy = { git = "https://gitcode.com/Cangjie-SIG/cjoy.git", branch = "main" }
